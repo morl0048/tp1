@@ -34,6 +34,8 @@ int main()//Je regardes pour ajouter openNp (Multithreading) pour que ça soit p
 	string i;
 	cin >> i;//Pour pauser à la fin
 
+	//openNp
+
     return 0;
 }
 
