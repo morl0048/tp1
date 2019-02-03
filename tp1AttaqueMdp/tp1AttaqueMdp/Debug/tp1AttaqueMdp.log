@@ -1,3 +1,4 @@
 ﻿  tp1AttaqueMdp.cpp
+d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(58): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(72): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
   tp1AttaqueMdp.vcxproj -> D:\UQAR\session4\securite\tp1\tp1AttaqueMdp\Debug\tp1AttaqueMdp.exe
-  tp1AttaqueMdp.vcxproj -> D:\UQAR\session4\securite\tp1\tp1AttaqueMdp\Debug\tp1AttaqueMdp.pdb (Partial PDB)
