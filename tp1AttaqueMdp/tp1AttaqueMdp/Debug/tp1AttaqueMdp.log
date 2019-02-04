@@ -1,9 +1,2 @@
 ﻿  tp1AttaqueMdp.cpp
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(64): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(73): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const unsigned int', possible loss of data
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(82): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(85): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const unsigned int', possible loss of data
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(87): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const unsigned int', possible loss of data
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(89): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const unsigned int', possible loss of data
-d:\uqar\session4\securite\tp1\tp1attaquemdp\tp1attaquemdp\tp1attaquemdp.cpp(109): warning C4244: 'argument': conversion from 'unsigned __int64' to 'const unsigned int', possible loss of data
   tp1AttaqueMdp.vcxproj -> D:\UQAR\session4\securite\tp1\tp1AttaqueMdp\Debug\tp1AttaqueMdp.exe
