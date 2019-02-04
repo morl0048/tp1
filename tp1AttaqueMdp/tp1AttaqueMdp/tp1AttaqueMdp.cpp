@@ -101,6 +101,7 @@ int main()
 	string dispo = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%&*";
 	size_t longueurMax = 8;
 	Compteur c(longueurMax, dispo);//Outil de création de mots
+	c.SetValue("g$x6nf");
 
 #pragma omp parallel
 	{

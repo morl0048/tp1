@@ -86,7 +86,7 @@ string Compteur::GetValue()
 
 void Compteur::SetValue(string value)//!!ATTENTION!! ne regarde pas si bon alphabet ni longueur mot
 {
-	while (value.length < this->m_longueur)
+	while (value.length() < this->m_longueur)
 	{
 		value.insert(0, " ");
 	}
