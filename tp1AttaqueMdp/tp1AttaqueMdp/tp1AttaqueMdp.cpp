@@ -100,7 +100,7 @@ int main()
 	cout << "Partie 2:\n";
 	string dispo = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%&*";
 	size_t longueurMax = 8;
-	Compteur c(longueurMax, dispo);//Outils de création de mots
+	Compteur c(longueurMax, dispo);//Outil de création de mots
 
 	do
 	{
