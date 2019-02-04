@@ -111,6 +111,8 @@ int main()
 		} while (c.Increment());//Tant que pas d'overflow
 	}
 
+	c.~Compteur();
+
 	cout << "Temps d'exécution partie 2: " << float(clock() - temps) / CLOCKS_PER_SEC << "\r\n";
 
 	cout << "Temps d'exécution total: " << float(clock() - temps) / CLOCKS_PER_SEC << "\r\n";

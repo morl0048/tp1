@@ -13,6 +13,11 @@ Compteur::Compteur(size_t longueur, string charPossible)
 	m_value += charPossible[0];
 }
 
+Compteur::Compteur(size_t longueur, string charPossible, string value) : Compteur(longueur, charPossible)
+{
+	this->SetValue(value);
+}
+
 Compteur::~Compteur()
 {
 	m_charPossible.clear();
@@ -77,4 +82,13 @@ string Compteur::GetValue()
 	string temp = m_value;
 	temp.erase(remove(temp.begin(), temp.end(), ' '), temp.end());
 	return temp;
+}
+
+void Compteur::SetValue(string value)//!!ATTENTION!! ne regarde pas si bon alphabet ni longueur mot
+{
+	while (value.length < this->m_longueur)
+	{
+		value.insert(0, " ");
+	}
+	this->m_value = value;
 }
