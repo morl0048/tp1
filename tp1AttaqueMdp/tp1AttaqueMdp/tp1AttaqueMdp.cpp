@@ -102,12 +102,15 @@ int main()
 	size_t longueurMax = 8;
 	Compteur c(longueurMax, dispo);//Outil de création de mots
 
-	do
+#pragma omp parallel
 	{
-		string mot = c.GetValue();
-		VerifHashDansListe(md5(mot), mot, listeHashATrouver);
-	} while (c.Increment());//Tant que pas d'overflow
-	
+		do//Chaque cpu core va faire ++ chacun leur tour (Singleton Compteur)
+		{
+			string mot = c.GetValue();
+			VerifHashDansListe(md5(mot), mot, listeHashATrouver);
+		} while (c.Increment());//Tant que pas d'overflow
+	}
+
 	cout << "Temps d'exécution partie 2: " << float(clock() - temps) / CLOCKS_PER_SEC << "\r\n";
 
 	cout << "Temps d'exécution total: " << float(clock() - temps) / CLOCKS_PER_SEC << "\r\n";
