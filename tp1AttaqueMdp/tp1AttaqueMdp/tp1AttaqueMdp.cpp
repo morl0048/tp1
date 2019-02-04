@@ -96,7 +96,7 @@ int main()
 
 	cout << "Temps d'exécution partie 1: " << float(clock() - temps) / CLOCKS_PER_SEC << "\r\n";
 	
-	//Partie 2 //Je regardes pour ajouter openNp pour que ça soit plus rapide
+	//Partie 2 //Je regardes pour ajouter openMp pour que ça soit plus rapide
 	cout << "Partie 2:\n";
 	string dispo = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%&*";
 	size_t longueurMax = 8;
