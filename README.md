@@ -17,20 +17,34 @@ que le .cpp.
 
 1)
 a)Les mots de passes récupérés en clair grâce à la partie 1 sont:
+
 cliquez - cb8d48705c534ae480bda3efd5619571
+
 coopere - 711253e85ce0dbc86cdbb27ec9285c8d
+
 desapez - ce44a7233d15bf399a09708e86039511
+
 domptage - 06861a5d5ca1a2e490daa0d64cc1a0b7
+
 droguera - 4c85f8da3fac9521dfba156c34564e41
+
 etirez - cc35f894c9219239ebb858692a86be1b
+
 gourami - ab4f6b1c2b3a66b5bf316e03bbd43e3f
+
 greneur - 6f31ce91f67bf9246ea237850686cc7a
+
 largue - 1f7cf588b860862a2c5ad696462523b8
+
 orientas - d7d7c6ad7c0147cb380f28566296efc3
 
+
 b)Les mots de passes récupérés en clair grâce à la partie 2 sont:
+
 etirez - cc35f894c9219239ebb858692a86be1b
+
 largue - 1f7cf588b860862a2c5ad696462523b8
+
 (EN COURS)
 
 2)
