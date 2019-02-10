@@ -9,6 +9,11 @@ et lorsque toutes les lettre sont passées dans une position, la position suivan
 mente de 1. Ex: aa, ab, ac, ..., a&, a*, ba, bb, bc, ... Le mot résultant de chaque incré-
 mentation est, par la suite, hashé et vérifié dans la liste de hash de la même façon que 
 dans la première partie.
+ 
+ Pour faire fonctionner le tout, vous devez ouvrir la solution et aller dans le main du fichier
+tp1AttaqueMdp.cpp pour aller changer l'alphabet utilisé ainsi que le mot de début de recherche.
+Vous pouvez aussi changer les fichiers de hash à trouver et de dictionnaire situés au même niveau
+que le .cpp.
 
 1)
 a)Les mots de passes récupérés en clair grâce à la partie 1 sont:
@@ -25,6 +30,7 @@ orientas - d7d7c6ad7c0147cb380f28566296efc3
 
 b)Les mots de passes récupérés en clair grâce à la partie 2 sont:
 etirez - cc35f894c9219239ebb858692a86be1b
+largue - 1f7cf588b860862a2c5ad696462523b8
 (EN COURS)
 
 2)
